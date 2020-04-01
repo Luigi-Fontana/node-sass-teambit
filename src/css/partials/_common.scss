@@ -20,6 +20,7 @@ a {
         background-color: $color5;
         border: 1px solid $color5;
         color: $color1;
+        cursor: pointer;
     }
     &-white {
         @extend .btn;

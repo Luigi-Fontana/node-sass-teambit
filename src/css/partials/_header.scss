@@ -1,6 +1,7 @@
 header {
     height: 70px;
     border-bottom: 1px solid $color3;
+    @include fixed;
     @include flex_align_cent;
     justify-content: space-between;
     padding: 0 30px;
