@@ -6,7 +6,7 @@ header {
     justify-content: space-between;
     padding: 0 30px;
     .header-left {
-        @include flex-align-cent;
+        @include flex_align_cent;
         img {
             margin-right: 10px;
         }
@@ -15,7 +15,7 @@ header {
         }
     }
     .header-right{
-        @include flex-align-cent;
+        @include flex_align_cent;
         nav {
             ul {
                 li {

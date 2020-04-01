@@ -1,0 +1,26 @@
+#jumbotron {
+    padding: 150px 0;
+    @include flex_align_cent;
+    .jumbotron-left {
+        @include width50;
+        padding: 0 30px;
+        .jumbotron-left-button {
+            padding-bottom: 20px;
+            @include flex_align_cent;
+            p {
+                font-size: 12px;
+                padding: 0 20px;
+            }
+        }
+        &:after {
+            content: "\2192";
+        }
+    }
+    .jumbotron-right {
+        @include width50;
+        padding: 0 30px;
+        img {
+            @include width100;
+        }
+    }
+}
