@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 /* RESET */
 
 * {
@@ -8,7 +10,96 @@
 
 /* COMMON */
 
+body {
+  font-family: "Lato", sans-serif;
+  color: #58402c;
+  letter-spacing: 1px;
+}
+
+a {
+  text-decoration: none;
+  color: #58402c;
+}
+
+.btn,
+.btn-white {
+  padding: 5px 20px;
+  font-size: 13px;
+  font-weight: bold;
+  border-radius: 5px;
+  border: 1px solid #30488f;
+  background-color: #30488f;
+  color: #ffffff;
+  transition-duration: 0.3s;
+}
+
+.btn:hover,
+.btn-white:hover {
+  background-color: #233569;
+  border: 1px solid #233569;
+  color: #ffffff;
+}
+
+.btn-white {
+  padding: 5px 10px;
+  background-color: #ffffff;
+  color: #30488f;
+}
+
+.btn .btn-text,
+.btn-white .btn-text {
+  position: relative;
+  bottom: 3px;
+}
+
 /* HEADER */
+
+header {
+  height: 70px;
+  border-bottom: 1px solid #58402c;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 30px;
+}
+
+header .header-left {
+  display: flex;
+  align-items: center;
+}
+
+header .header-left img {
+  margin-right: 10px;
+}
+
+header .header-left span {
+  font-size: 20px;
+}
+
+header .header-right {
+  display: flex;
+  align-items: center;
+}
+
+header .header-right nav ul li {
+  display: inline-block;
+  list-style: none;
+  margin-right: 30px;
+}
+
+header .header-right nav ul li:first-child:after {
+  content: "\25BE";
+  margin-left: 5px;
+}
+
+header .header-right nav ul li a {
+  font-size: 13px;
+  font-weight: bold;
+}
+
+header .header-right nav ul li a:hover {
+  color: #30488f;
+}
 
 /* MAIN */
 
