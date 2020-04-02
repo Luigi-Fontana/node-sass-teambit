@@ -16,6 +16,11 @@ body {
   letter-spacing: 1px;
 }
 
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
 a {
   text-decoration: none;
   color: #58402c;
@@ -71,7 +76,7 @@ small {
 
 /* HEADER */
 
-header {
+header .header-cont {
   height: 70px;
   border-bottom: 1px solid #58402c;
   position: fixed;
@@ -85,41 +90,41 @@ header {
   padding: 0 30px;
 }
 
-header .header-left {
+header .header-cont .header-left {
   display: flex;
   align-items: center;
 }
 
-header .header-left img {
+header .header-cont .header-left img {
   margin-right: 10px;
 }
 
-header .header-left span {
+header .header-cont .header-left span {
   font-size: 20px;
 }
 
-header .header-right {
+header .header-cont .header-right {
   display: flex;
   align-items: center;
 }
 
-header .header-right nav ul li {
+header .header-cont .header-right nav ul li {
   display: inline-block;
   list-style: none;
   margin-right: 30px;
 }
 
-header .header-right nav ul li:first-child:after {
+header .header-cont .header-right nav ul li:first-child:after {
   content: "\25BE";
   margin-left: 5px;
 }
 
-header .header-right nav ul li a {
+header .header-cont .header-right nav ul li a {
   font-size: 13px;
   font-weight: bold;
 }
 
-header .header-right nav ul li a:hover {
+header .header-cont .header-right nav ul li a:hover {
   color: #30488f;
 }
 
@@ -127,38 +132,38 @@ header .header-right nav ul li a:hover {
 
 /* JUMBOTRON */
 
-#jumbotron {
+#jumbotron .jumbo-cont {
   padding: 150px 0;
   display: flex;
   align-items: center;
 }
 
-#jumbotron .jumbotron-left {
+#jumbotron .jumbo-cont .jumbotron-left {
   width: 50%;
   padding: 0 30px;
 }
 
-#jumbotron .jumbotron-left .jumbotron-left-button {
+#jumbotron .jumbo-cont .jumbotron-left .jumbotron-left-button {
   padding-bottom: 20px;
   display: flex;
   align-items: center;
 }
 
-#jumbotron .jumbotron-left .jumbotron-left-button p {
+#jumbotron .jumbo-cont .jumbotron-left .jumbotron-left-button p {
   font-size: 12px;
   padding: 0 20px;
 }
 
-#jumbotron .jumbotron-left:after {
+#jumbotron .jumbo-cont .jumbotron-left:after {
   content: "\2192";
 }
 
-#jumbotron .jumbotron-right {
+#jumbotron .jumbo-cont .jumbotron-right {
   width: 50%;
   padding: 0 30px;
 }
 
-#jumbotron .jumbotron-right img {
+#jumbotron .jumbo-cont .jumbotron-right img {
   width: 100%;
 }
 
