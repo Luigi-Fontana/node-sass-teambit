@@ -4,14 +4,6 @@
         @include flex_align_cent;
         .white-left {
             @include width50;
-            .white-left-button {
-                padding-bottom: 20px;
-                @include flex_align_cent;
-                p {
-                    font-size: 12px;
-                    padding: 0 20px;
-                }
-            }
         }
         .white-right {
             @include width50;
@@ -57,6 +49,56 @@
             h2 {
                 padding-top: 80px;
             }
+        }
+    }
+    .brown-cont-quote {
+        width: 50%;
+        padding: 80px 0;
+        .brown-title {
+            text-align: center;
+            position: relative;
+            img {
+                position: absolute;
+                bottom: 10px;
+                right: 150px;
+            }
+        }
+        .brown-quote {
+            width: 600px;
+            background-color: $color1;
+            border: 1px solid lightgrey;
+            border-radius: 10px;
+            padding: 30px 40px;
+            margin: 50px auto;
+            position: relative;
+            i {
+                color: $color4;
+                font-size: 40px;
+                position: absolute;
+                top: -20px;
+                left: 0;
+            }
+            p {
+                font-size: 15px;
+                padding-bottom: 30px;
+            }
+            .quote-bottom {
+                @include flex_align_cent;
+                img {
+                    width: 40px;
+                    margin-right: 10px;
+                }
+                small {
+                    display: block;
+                    font-size: 12px;
+                }
+            }
+        }
+        .main-button {
+            justify-content: center;
+        }
+        .brown-link {
+            text-align: center;
         }
     }
 }

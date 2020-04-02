@@ -53,6 +53,14 @@ small {
   font-size: 13px;
 }
 
+.blue {
+  color: #30488f;
+}
+
+.title {
+  font-size: 40px;
+}
+
 .border {
   border-bottom: 1px solid lightgrey;
 }
@@ -116,6 +124,17 @@ small {
 .btn-white .btn-text {
   position: relative;
   bottom: 3px;
+}
+
+.main-button {
+  padding-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.main-button p {
+  font-size: 12px;
+  padding: 0 20px;
 }
 
 /* HEADER */
@@ -187,17 +206,6 @@ small {
   padding: 0 30px;
 }
 
-.bg-white .white-cont .white-left .white-left-button {
-  padding-bottom: 20px;
-  display: flex;
-  align-items: center;
-}
-
-.bg-white .white-cont .white-left .white-left-button p {
-  font-size: 12px;
-  padding: 0 20px;
-}
-
 .bg-white .white-cont .white-right {
   width: 50%;
   padding: 0 30px;
@@ -257,6 +265,68 @@ small {
 
 .bg-brown .brown-cont .brown-bottom h2 {
   padding-top: 80px;
+}
+
+.bg-brown .brown-cont-quote {
+  width: 50%;
+  padding: 80px 0;
+}
+
+.bg-brown .brown-cont-quote .brown-title {
+  text-align: center;
+  position: relative;
+}
+
+.bg-brown .brown-cont-quote .brown-title img {
+  position: absolute;
+  bottom: 10px;
+  right: 150px;
+}
+
+.bg-brown .brown-cont-quote .brown-quote {
+  width: 600px;
+  background-color: #ffffff;
+  border: 1px solid lightgrey;
+  border-radius: 10px;
+  padding: 30px 40px;
+  margin: 50px auto;
+  position: relative;
+}
+
+.bg-brown .brown-cont-quote .brown-quote i {
+  color: #30488f;
+  font-size: 40px;
+  position: absolute;
+  top: -20px;
+  left: 0;
+}
+
+.bg-brown .brown-cont-quote .brown-quote p {
+  font-size: 15px;
+  padding-bottom: 30px;
+}
+
+.bg-brown .brown-cont-quote .brown-quote .quote-bottom {
+  display: flex;
+  align-items: center;
+}
+
+.bg-brown .brown-cont-quote .brown-quote .quote-bottom img {
+  width: 40px;
+  margin-right: 10px;
+}
+
+.bg-brown .brown-cont-quote .brown-quote .quote-bottom small {
+  display: block;
+  font-size: 12px;
+}
+
+.bg-brown .brown-cont-quote .main-button {
+  justify-content: center;
+}
+
+.bg-brown .brown-cont-quote .brown-link {
+  text-align: center;
 }
 
 /* FOOTER */

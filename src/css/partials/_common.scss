@@ -33,6 +33,12 @@ h4 {
 small {
     font-size: 13px;
 }
+.blue {
+    color: $color4;
+}
+.title {
+    font-size: 40px;
+}
 .border {
     border-bottom: 1px solid lightgrey;
 }
@@ -82,5 +88,13 @@ small {
     .btn-text {
         position: relative;
         bottom: 3px;
+    }
+}
+.main-button {
+    padding-bottom: 20px;
+    @include flex_align_cent;
+    p {
+        font-size: 12px;
+        padding: 0 20px;
     }
 }
