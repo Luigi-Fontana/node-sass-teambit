@@ -33,7 +33,7 @@ h1 {
 }
 
 h2 {
-  font-size: 25px;
+  font-size: 24px;
   line-height: 1.5;
 }
 
@@ -55,6 +55,35 @@ small {
 
 .border {
   border-bottom: 1px solid lightgrey;
+}
+
+.poster {
+  width: 100%;
+}
+
+.illustration {
+  height: 200px;
+}
+
+.link {
+  font-size: 20px;
+  color: #30488f;
+}
+
+.link:after {
+  content: "\2192";
+}
+
+.link:hover {
+  color: #233569;
+}
+
+.small-link:hover {
+  color: #30488f;
+}
+
+.small-link:after {
+  content: "\2192";
 }
 
 .btn,
@@ -169,17 +198,14 @@ small {
   padding: 0 20px;
 }
 
-.bg-white .white-cont .white-left small:after {
-  content: "\2192";
-}
-
 .bg-white .white-cont .white-right {
   width: 50%;
   padding: 0 30px;
 }
 
-.bg-white .white-cont .white-right .white-right-img img {
-  width: 100%;
+.bg-white .white-cont .white-img {
+  padding-top: 30px;
+  text-align: center;
 }
 
 .bg-brown {

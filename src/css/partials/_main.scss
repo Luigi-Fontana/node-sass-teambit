@@ -12,17 +12,13 @@
                     padding: 0 20px;
                 }
             }
-            small:after {
-                content: "\2192";
-            }
         }
         .white-right {
             @include width50;
-            .white-right-img {
-                img {
-                    @include width100;
-                }
-            }
+        }
+        .white-img {
+            padding-top: 30px;
+            text-align: center;
         }
     }
 }

@@ -17,7 +17,7 @@ h1 {
     padding-top: 70px;
 }
 h2 {
-    font-size: 25px;
+    font-size: 24px;
     line-height: 1.5;
 }
 h3 {
@@ -35,6 +35,28 @@ small {
 }
 .border {
     border-bottom: 1px solid lightgrey;
+}
+.poster {
+    @include width100;
+}
+.illustration {
+    height: 200px;
+}
+.link {
+    font-size: 20px;
+    color: $color4;
+    &:after {
+        content: "\2192";
+    }
+    &:hover {
+        color: $color5;
+    }
+}
+.small-link:hover {
+    color: $color4;
+}
+.small-link:after {
+    content: "\2192";
 }
 .btn {
     padding: 5px 20px;
