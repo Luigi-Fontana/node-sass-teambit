@@ -1,6 +1,6 @@
 .bg-white {
-    .white-cont{
-        padding: 100px 0;
+    .white-cont {
+        padding: 80px 0;
         @include flex_align_cent;
         .white-left {
             @include width50;
@@ -18,10 +18,48 @@
         }
         .white-right {
             @include width50;
-            .white-right-img{
+            .white-right-img {
                 img {
                     @include width100;
                 }
+            }
+        }
+    }
+}
+.bg-brown {
+    background-color: $color2;
+    .brown-cont {
+        width: 75%;
+        padding: 80px 0;
+        @include flex_column_cent;
+        text-align: center;
+        .brown-top {
+            width: 80%;
+        }
+        .brown-middle {
+            display: flex;
+            .middle-padding {
+                @include width33;
+                padding: 50px 30px;
+                .middle-cont {
+                    @include flex_column_cent;
+                    .middle-cont-img {
+                        @include flex_align_cent;
+                        height: 150px;
+                        img {
+                            height: 100px;
+                        }
+                    }
+                }
+            }
+        }
+        .brown-bottom {
+            img {
+                padding-top: 30px;
+                height: 350px;
+            }
+            h2 {
+                padding-top: 80px;
             }
         }
     }

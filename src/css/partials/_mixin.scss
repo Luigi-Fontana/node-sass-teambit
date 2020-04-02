@@ -2,12 +2,18 @@
     display: flex;
     align-items: center;
 }
+@mixin flex_column_cent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 @mixin fixed {
     position: fixed;
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
+    z-index: 1;
 }
 @mixin width100 {
     width: 100%;
@@ -15,4 +21,7 @@
 @mixin width50 {
     width: 50%;
     padding: 0 30px;
+}
+@mixin width33 {
+    width: calc(100% / 3);
 }
