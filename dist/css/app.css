@@ -94,6 +94,15 @@ small {
   content: "\2192";
 }
 
+.footer-link {
+  color: #30488f;
+  text-decoration: underline;
+}
+
+.footer-link:hover {
+  color: #233569;
+}
+
 .btn,
 .btn-white {
   padding: 5px 20px;
@@ -274,13 +283,10 @@ small {
 
 .bg-brown .brown-cont-quote .brown-title {
   text-align: center;
-  position: relative;
 }
 
 .bg-brown .brown-cont-quote .brown-title img {
-  position: absolute;
-  bottom: 10px;
-  right: 150px;
+  margin-left: 5px;
 }
 
 .bg-brown .brown-cont-quote .brown-quote {
@@ -330,4 +336,53 @@ small {
 }
 
 /* FOOTER */
+
+.footer-cont {
+  display: flex;
+  padding: 80px 0;
+}
+
+.footer-cont .footer-left {
+  width: 30%;
+  display: flex;
+}
+
+.footer-cont .footer-left img {
+  width: 50px;
+  margin: 0 20px 0 50px;
+}
+
+.footer-cont .footer-left p {
+  font-weight: bold;
+}
+
+.footer-cont .footer-right {
+  width: 70%;
+  padding-left: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-cont .footer-right .right-list {
+  width: 20%;
+  padding: 0 10px;
+}
+
+.footer-cont .footer-right .right-list h4 {
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+.footer-cont .footer-right .right-list ul {
+  list-style: none;
+}
+
+.footer-cont .footer-right .right-list ul li {
+  padding-top: 15px;
+  line-height: 1.5;
+}
+
+.footer-cont .footer-right .right-list ul li a:hover {
+  color: #233569;
+}
 

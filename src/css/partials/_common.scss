@@ -64,6 +64,13 @@ small {
 .small-link:after {
     content: "\2192";
 }
+.footer-link {
+    color: $color4;
+    text-decoration: underline;
+    &:hover {
+        color: $color5;
+    }
+}
 .btn {
     padding: 5px 20px;
     font-size: 13px;
