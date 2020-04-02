@@ -1,0 +1,28 @@
+.bg-white {
+    .white-cont{
+        padding: 100px 0;
+        @include flex_align_cent;
+        .white-left {
+            @include width50;
+            .white-left-button {
+                padding-bottom: 20px;
+                @include flex_align_cent;
+                p {
+                    font-size: 12px;
+                    padding: 0 20px;
+                }
+            }
+            small:after {
+                content: "\2192";
+            }
+        }
+        .white-right {
+            @include width50;
+            .white-right-img{
+                img {
+                    @include width100;
+                }
+            }
+        }
+    }
+}

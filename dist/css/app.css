@@ -29,6 +29,7 @@ a {
 h1 {
   font-size: 50px;
   line-height: 1.5;
+  padding-top: 50px;
 }
 
 h3 {
@@ -130,40 +131,38 @@ header .header-cont .header-right nav ul li a:hover {
 
 /* MAIN */
 
-/* JUMBOTRON */
-
-#jumbotron .jumbo-cont {
-  padding: 150px 0;
+.bg-white .white-cont {
+  padding: 100px 0;
   display: flex;
   align-items: center;
 }
 
-#jumbotron .jumbo-cont .jumbotron-left {
+.bg-white .white-cont .white-left {
   width: 50%;
   padding: 0 30px;
 }
 
-#jumbotron .jumbo-cont .jumbotron-left .jumbotron-left-button {
+.bg-white .white-cont .white-left .white-left-button {
   padding-bottom: 20px;
   display: flex;
   align-items: center;
 }
 
-#jumbotron .jumbo-cont .jumbotron-left .jumbotron-left-button p {
+.bg-white .white-cont .white-left .white-left-button p {
   font-size: 12px;
   padding: 0 20px;
 }
 
-#jumbotron .jumbo-cont .jumbotron-left:after {
+.bg-white .white-cont .white-left small:after {
   content: "\2192";
 }
 
-#jumbotron .jumbo-cont .jumbotron-right {
+.bg-white .white-cont .white-right {
   width: 50%;
   padding: 0 30px;
 }
 
-#jumbotron .jumbo-cont .jumbotron-right img {
+.bg-white .white-cont .white-right .white-right-img img {
   width: 100%;
 }
 
